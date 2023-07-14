@@ -6,12 +6,12 @@
  * @param l 返回的字段
  * @returns {string|*}
  */
-export function paraphrase(
+const paraphrase = (
   value: string | number,
   options: any[] = [],
   v = 'value',
   l = 'label'
-): string {
+): string => {
   const newData = options.filter(x => {
     return x[v] === value
   })
@@ -20,3 +20,5 @@ export function paraphrase(
   }
   return ''
 }
+
+export default paraphrase;
