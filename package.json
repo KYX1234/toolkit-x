@@ -1,0 +1,28 @@
+{
+	"name": "toolkit-x",
+	"version": "1.0.0",
+	"author": "kyx",
+	"description": "this is a general purpose toolkit",
+	"keywords": [
+		"utils",
+		"validate"
+	],
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "https://gitee.com/A1059784729/toolkit-x.git"
+	},
+	"scripts": {
+		"build": "tsc"
+	},
+	"files": [
+		"dist/**/*",
+		"package.json",
+		"readme.md"
+	],
+	"license": "MIT",
+	"devDependencies": {
+		"typescript": "^5.1.6"
+	}
+}
