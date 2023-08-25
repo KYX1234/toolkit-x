@@ -1,6 +1,6 @@
 {
 	"name": "toolkit-x1",
-	"version": "1.2.0",
+	"version": "1.2.2",
 	"author": "kyx",
 	"type": "module",
 	"description": "this is a general purpose toolkit",
@@ -10,10 +10,10 @@
 	],
 	"scripts": {
 		"dev": "vite",
-		"build": "vite build && tsc -p tsconfig.build.json",
+		"build": "vite build",
 		"preview": "vite preview"
 	},
-	"main": "./dist/index.cjs",
+	"main": "./dist/index.umd.cjs",
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"repository": {
